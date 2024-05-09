@@ -1,0 +1,16 @@
+baseURL = 'https://blog.freeoisin.com'
+languageCode = 'en-us'
+title = 'Oisin Blog'
+theme = 'hugo-bearblog'
+author = 'Oisin'
+copyright = 'Copyright © 2024, Oisin'
+enableRobotsTXT = true
+
+[permalinks]
+    blog = '/:slug/'
+    tags = '/blog/:slug'
+
+[params]
+    description = 'Share Tech and Knowledge.'
+    title = 'Oisin Blog'
+    dateFormat = '2006-01-01'
