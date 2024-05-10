@@ -6,6 +6,9 @@ author = 'Oisin'
 copyright = 'Copyright © 2024, Oisin'
 enableRobotsTXT = true
 
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
 [permalinks]
     blog = '/:slug/'
     tags = '/blog/:slug'
